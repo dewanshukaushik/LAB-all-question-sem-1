@@ -1,0 +1,13 @@
+#include <stdio.h>
+char main() {
+char name[]={'K','I','E','T'};
+char name2[]={"KIET"};
+
+    printf("%C",Sizeof(name));
+    printf("%C",sizeof(name2));
+    printf("%c",strln(name));
+    printf("%c",strln(name));
+    
+
+    return(0);
+}
