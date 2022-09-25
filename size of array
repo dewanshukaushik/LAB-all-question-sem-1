@@ -2,12 +2,13 @@
 char main() {
 char name[]={'K','I','E','T'};
 char name2[]={"KIET"};
-
-    printf("%C",Sizeof(name));
-    printf("%C",sizeof(name2));
-    printf("%c",strln(name));
-    printf("%c",strln(name));
-    
+ int a,s,d,f;
+   a = sizeof(name);
+   s = sizeof(name2);
+   d = strlen(name);
+   f = strlen(name2);
+     
+     printf("%d %d %d %d",a,s,d,f);
 
     return(0);
 }
