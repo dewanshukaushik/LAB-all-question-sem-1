@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+    int num,count=0,pow = 0,temp,t,n;
+    printf("Enter any number");
+    scanf("%d",&num);
+    temp = num;
+    while (temp > 0)
+    {
+        count++;
+        temp = temp / 10;
+    }
+    n = num;
+    while (n > 0)
+    {
+        t = n % 10;
+        pow = pow + t*t*t;
+        n = n / 10;
+    }
+    if (pow == num)
+    {
+        printf("Armstrong");
+    }
+    else
+    {
+        printf("not armstrong");
+    }
+
+}
