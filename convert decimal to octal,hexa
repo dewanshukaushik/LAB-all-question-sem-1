@@ -1,0 +1,11 @@
+#include <stdio.h>
+void main() {
+ int a;
+ a=525;
+ {
+ printf("%o",a);
+ printf("\n %x",a);
+ 
+}
+    return 0;
+}
