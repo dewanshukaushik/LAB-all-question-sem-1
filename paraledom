@@ -1,0 +1,25 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <string.h>
+
+void main() {
+    char str[20];
+    int l,i,t,f=0;
+    gets(str);
+    for(l=0;str[l]!='\0';l++);
+    t=l-1;
+    for(i=0;i<=l/2;i++,t--)
+    {
+        if (str[i]!=str[t])
+        {
+            printf(" it is not paraledom");
+            f=1;
+            break;
+        }
+    }
+  if(f==0)
+  { 
+      printf(" paradelom");
+}
+
+}
