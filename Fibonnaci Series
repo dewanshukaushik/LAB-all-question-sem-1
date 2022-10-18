@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int a=0,b=1,c=0,i,n;
+clrscr();
+printf("enter the number of element:");
+scanf("%d",&n);
+printf(" febonnaci series is %d %d",a,b);
+for(i=3;i<=n;i++)
+{
+c=a+b;
+if(c>n)
+break;
+a=b;
+b=c;
+printf(" %d",c);
+}
+   getch();
+return 0;
+}
+
+
